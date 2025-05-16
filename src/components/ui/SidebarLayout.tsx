@@ -21,7 +21,7 @@ type MenuEntry = MenuItem | 'divider'
 const mainMenu: MenuEntry[] = [
   { label: 'Dashboard', icon: Home, href: '/dashboard' },
   { label: 'Subscription', icon: CreditCard, href: '/subscription' },
-  { label: 'Customer', icon: User, href: '/customer' },
+  { label: 'Customer', icon: User, href: '/customers' },
   { label: 'Route', icon: Route, href: '/route' },
   { label: 'Order', icon: List, href: '/order' },
   { label: 'Lead', icon: List, href: '/lead' },
@@ -71,7 +71,7 @@ export default function Sidebar() {
       {/* Secondary Menu + Welcome Message */}
       <div className="space-y-1">
 
-        
+
         {/* Notification, Security, Logout */}
         {secondaryMenu.map((item) => {
           const Icon = item.icon
