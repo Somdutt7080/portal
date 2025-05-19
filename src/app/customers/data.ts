@@ -67,7 +67,7 @@ export const customers: CustomerDetail[] = [
   },
  
   {
-     id: '2',
+    id: '2',
     fullName: 'somdutt',
     email: 'somdutt@gmail.com',
     phone: '+91 654 678 654',
@@ -79,6 +79,81 @@ export const customers: CustomerDetail[] = [
     taxExemption: true,
     addressVerificationDate: '13/02/2025',
     currentPlan: 'Platinum',
+    billingCycle: 'Monthly',
+    startDate: '20/05/2024',
+    userstatus: 'Active',
+    isVerified: true,
+    leads: [
+      {
+        purchasedOn: '30/05/2024',
+        location: 'Parkview Corporate Centre, Denver, CO',
+        locationType: 'Office building',
+        businessName: 'Geekyants',
+        occupancyCount: '100 people',
+        price: '$4,000',
+      },
+      
+    ],
+    ordersHistory: [
+      {
+        
+      }
+    ],
+    routesBought: [],
+    routesListed: [],
+  
+  },
+
+  {
+    id: '3',
+    fullName: 'sharma',
+    email: 'sharma@gmail.com',
+    phone: '+91 654 678 654',
+    joinedDate: '12/05/2024',
+    businessName: 'Geekyants',
+    shippingAddress: '1122334455667788',
+    deliveryAddress: '123 Business Lane, Suite 400, Dallas, TX 75201, USA',
+    opco: 'FL',
+    taxExemption: true,
+    addressVerificationDate: '13/02/2025',
+    currentPlan: 'Silver',
+    billingCycle: 'Monthly',
+    startDate: '20/05/2024',
+    userstatus: 'Active',
+    isVerified: true,
+    leads: [
+      {
+        purchasedOn: '30/05/2024',
+        location: 'Parkview Corporate Centre, Denver, CO',
+        locationType: 'Office building',
+        businessName: 'Geekyants',
+        occupancyCount: '100 people',
+        price: '$4,000',
+      },
+      
+    ],
+    ordersHistory: [
+      {
+        
+      }
+    ],
+    routesBought: [],
+    routesListed: [],
+  
+  },
+  {
+    id: '4',
+    fullName: 'jhonson',
+    email: 'jhonson@gmail.com',
+    phone: '+91 654 678 654',
+    joinedDate: '12/05/2024',
+    businessName: 'Geekyants',
+    shippingAddress: '1122334455667788',
+    deliveryAddress: '123 Business Lane, Suite 400, Dallas, TX 75201, USA',
+    opco: 'FL',
+    taxExemption: true,
+    addressVerificationDate: '13/02/2025',
+    currentPlan: 'bronze',
     billingCycle: 'Monthly',
     startDate: '20/05/2024',
     userstatus: 'Active',
