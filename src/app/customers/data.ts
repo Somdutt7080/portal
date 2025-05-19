@@ -153,7 +153,7 @@ export const customers: CustomerDetail[] = [
     opco: 'FL',
     taxExemption: true,
     addressVerificationDate: '13/02/2025',
-    currentPlan: 'bronze',
+    currentPlan: 'Bronze',
     billingCycle: 'Monthly',
     startDate: '20/05/2024',
     userstatus: 'Active',
